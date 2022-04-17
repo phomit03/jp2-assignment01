@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assigment01.student.StudentList">
+   <children>
+      <TextField fx:id="txtSearchSt" layoutX="45.0" layoutY="70.0" prefHeight="31.0" prefWidth="176.0" promptText="Search by Hoten" />
+      <Button layoutX="214.0" layoutY="70.0" mnemonicParsing="false" onAction="#searchSt" prefHeight="31.0" prefWidth="147.0" text="Search book" />
+      <Text fontSmoothingType="LCD" layoutX="456.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student List:" underline="true">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <Button layoutX="739.0" layoutY="54.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="317.0" text="Add student">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tbView" layoutX="45.0" layoutY="111.0" prefHeight="494.0" prefWidth="1011.0">
+        <columns>
+          <TableColumn fx:id="cMaSt" prefWidth="113.0" text="MaSV" />
+          <TableColumn fx:id="cNameSt" prefWidth="230.0" text="Hoten" />
+            <TableColumn fx:id="cDateSt" prefWidth="149.0" text="Ngaysinh" />
+            <TableColumn fx:id="cGenderSt" prefWidth="79.0" text="Gioitinh" />
+            <TableColumn fx:id="cAddressSt" prefWidth="211.0" text="Diachi" />
+            <TableColumn fx:id="cEditSt" prefWidth="113.0" text="Edit student" />
+            <TableColumn fx:id="cDelSt" prefWidth="115.0" text="Delete student" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assigment01.MenuController">
+   <children>
+      <Text layoutX="270.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUAN LY THU VIEN" underline="true">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Text>
+      <Button onAction="#listStScreen" layoutX="270.0" layoutY="179.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="384.0" text="Student List" textFill="#008cff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button onAction="#listBookScreen" layoutX="270.0" layoutY="290.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="384.0" text="Book List" textFill="#008cff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button onAction="#listLBScreen" layoutX="270.0" layoutY="410.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="384.0" text="Book loan list" textFill="#008cff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

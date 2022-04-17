@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="41.0" layoutY="116.0" prefHeight="488.0" prefWidth="1019.0">
+         <columns>
+            <TableColumn prefWidth="140.0" text="Masach" />
+            <TableColumn prefWidth="149.0" text="MaSV" />
+            <TableColumn prefWidth="224.0" text="Ngaymuon" />
+            <TableColumn prefWidth="226.0" text="Ngaytra" />
+            <TableColumn prefWidth="140.0" text="Edit loan book" />
+            <TableColumn prefWidth="139.0" text="Delete loan book" />
+         </columns>
+      </TableView>
+      <TextField layoutX="41.0" layoutY="62.0" prefHeight="31.0" prefWidth="188.0" promptText="Search by MaSV" />
+      <Button layoutX="227.0" layoutY="62.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="139.0" text="Search loan book" />
+      <Text fontSmoothingType="LCD" layoutX="436.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Loan List:" underline="true">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <Button layoutX="740.0" layoutY="55.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="320.0" text="Add loan book">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

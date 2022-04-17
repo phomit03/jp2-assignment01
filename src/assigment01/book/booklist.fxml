@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="41.0" layoutY="58.0" prefHeight="31.0" prefWidth="188.0" promptText="Search by Masach" />
+      <Button layoutX="223.0" layoutY="58.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="131.0" text="Search book" />
+      <Text fontSmoothingType="LCD" layoutX="477.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book List:" underline="true">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <Button layoutX="743.0" layoutY="42.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="317.0" text="Add book">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <TableView layoutX="41.0" layoutY="102.0" prefHeight="503.0" prefWidth="1019.0">
+        <columns>
+          <TableColumn prefWidth="127.0" text="Masach" />
+          <TableColumn prefWidth="276.0" text="Tensach" />
+            <TableColumn prefWidth="147.0" text="Namxb" />
+            <TableColumn prefWidth="239.0" text="Nhaxb" />
+            <TableColumn prefWidth="120.0" text="Edit book" />
+            <TableColumn prefWidth="109.0" text="Delete book" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>

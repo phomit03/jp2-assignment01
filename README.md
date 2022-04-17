@@ -1,2 +1,5 @@
-# jp2-assignment01
-Java2 Session01 - FPT Aptech
+Sử dụng JavaFX và MySQL xây dựng một ứng dụng phục vụ hoạt động của Thư viện Đại học FPT. 
+Ứng dụng cho phép Thủ thư và Sinh viên sử dụng để phục vụ các công việc như: 
++ Quản lý sách 
++ Quản lý thành viên 
++ Quản lý mượn sách
